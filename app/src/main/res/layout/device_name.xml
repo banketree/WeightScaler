@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:paddingBottom="1dip"
+    android:paddingEnd="8dip"
+    android:paddingStart="8dip"
+    android:paddingTop="1dip" >
+
+    <TextView
+        android:id="@+id/Devname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart" />
+
+    <TextView
+        android:id="@+id/valuetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart" />
+
+    <Button
+        android:id="@+id/Zero_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:text="置零" />
+
+</LinearLayout>
